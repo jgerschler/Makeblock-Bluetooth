@@ -1,5 +1,5 @@
 //NOT COMPLETE!!!
-/*
+
 #include "MeOrion.h"
 #include <SoftwareSerial.h>
 
@@ -18,9 +18,11 @@ void loop()
 { 
   delay(1000);
   
+  Serial.write(myTemp.temperature())
+  
   if(Serial.available())
   {
-    bluetooth.write(myTemp.temperature());
+    outDat = Serial.read();
+    bluetooth.write(outDat);
   }
 }
-*/
