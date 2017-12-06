@@ -28,7 +28,7 @@
 #include "MeOrion.h"
 #include <SoftwareSerial.h>
 
-MeBluetooth bluetooth(PORT_3);
+MeBluetooth bluetooth(PORT_5);
 
 unsigned char table[128] = {0};
 
